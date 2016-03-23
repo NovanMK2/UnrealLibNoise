@@ -1,0 +1,12 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.10",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "UnrealLibNoise",
+			"Enabled": true
+		}
+	]
+}
