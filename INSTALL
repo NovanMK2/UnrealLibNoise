@@ -1,0 +1,7 @@
+To install the Unreal LibNoise Plugin:
+
+Copy the folder UnrealLibNoise to the plugins directory where your engine is installed. eg: C:\Program Files (x86)\Epic Games\4.10\Engine\Plugins
+
+To install the ULNExample
+
+Copy the folder ULNExample to your Unreal Projects directory
