@@ -1,0 +1,84 @@
+﻿[2016.03.24-19.40.19:248][  0]Log file open, 03/24/16 15:40:19
+[2016.03.24-19.40.19:248][  0]LogInit:Display: Running engine for game: ULNExample
+[2016.03.24-19.40.19:248][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.24-19.40.19:248][  0]LogInit:Display: RandInit(-218449483) SRandInit(-218449482).
+[2016.03.24-19.40.19:248][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.24-19.40.19:248][  0]LogStats: Stats thread started at 0.068870
+[2016.03.24-19.40.19:248][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.24-19.40.19:248][  0]LogInit: API Version: 2758231
+[2016.03.24-19.40.19:248][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.24-19.40.19:248][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.24-19.40.19:248][  0]LogInit: Build Configuration: Development
+[2016.03.24-19.40.19:248][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.24-19.40.19:248][  0]LogInit: Command line:  /Temp/Autosaves/Game/Examples/Cylinders/UEDPCCylindersLevel -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.03.24-19.40.19:248][  0]LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.24-19.40.19:248][  0]LogInit: Rocket: 1
+[2016.03.24-19.40.19:254][  0]LogInit: Using libcurl 7.41.0
+[2016.03.24-19.40.19:254][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.24-19.40.19:254][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.24-19.40.19:254][  0]LogInit:  - other features:
+[2016.03.24-19.40.19:254][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.24-19.40.19:254][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.24-19.40.19:254][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.24-19.40.19:254][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.24-19.40.19:254][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.24-19.40.19:254][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.24-19.40.19:254][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.24-19.40.19:254][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.24-19.40.19:254][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.24-19.40.19:254][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.24-19.40.19:259][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.24-19.40.19:263][  0]LogInit: Object subsystem initialized
+[2016.03.24-19.40.19:264][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.24-19.40.19:264][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.24-19.40.19:267][  0]LogInit: Computer: DESKTOP-3ABQRE3
+[2016.03.24-19.40.19:267][  0]LogInit: User: mjham
+[2016.03.24-19.40.19:267][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.24-19.40.19:267][  0]LogInit: High frequency timer resolution =3.416981 MHz
+[2016.03.24-19.40.19:267][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.24-19.40.19:267][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.24-19.40.19:267][  0]LogMemory: Process Physical Memory: 56.84 MB used, 56.84 MB peak
+[2016.03.24-19.40.19:267][  0]LogMemory: Process Virtual Memory: 58.71 MB used, 58.71 MB peak
+[2016.03.24-19.40.19:267][  0]LogMemory: Physical Memory: 5641.00 MB used, 16269.04 MB total
+[2016.03.24-19.40.19:267][  0]LogMemory: Virtual Memory: 385.43 MB used, 134217728.00 MB total
+[2016.03.24-19.40.19:308][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.24-19.40.19:617][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.24-19.40.19:617][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 1 output[s]
+[2016.03.24-19.40.19:623][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.03.24-19.40.19:624][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2016.03.24-19.40.19:651][  0]LogD3D11RHI: Found D3D11 adapter 2: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.24-19.40.19:651][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2016.03.24-19.40.19:653][  0]LogD3D11RHI: Found D3D11 adapter 3: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.24-19.40.19:653][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2016.03.24-19.40.19:653][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.24-19.40.19:656][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.24-19.40.19:656][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.24-19.40.19:669][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.24-19.40.19:684][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Intermediate/Shaders/WorkingDirectory/7712/).
+[2016.03.24-19.40.19:684][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mjham/AppData/Local/Temp/UnrealShaderWorkingDir/5BE788164277A618CD7F488DB56D738D/'.
+[2016.03.24-19.40.19:684][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.24-19.40.20:365][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.24-19.40.20:368][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.24-19.40.20:371][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.24-19.40.20:374][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.24-19.40.20:377][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.24-19.40.20:379][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.24-19.40.20:381][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.24-19.40.20:383][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.24-19.40.20:386][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.24-19.40.20:388][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.24-19.40.20:390][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.24-19.40.20:395][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.24-19.40.20:395][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.24-19.40.20:396][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.24-19.40.20:411][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.24-19.40.20:413][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.24-19.40.20:415][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.24-19.40.20:417][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.24-19.40.20:417][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.24-19.40.20:481][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.24-19.40.20:513][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/mjham/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.24-19.40.20:514][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mjham/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.24-19.40.20:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.24-19.40.20:514][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.24-19.40.20:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mjham/Documents/GitHub

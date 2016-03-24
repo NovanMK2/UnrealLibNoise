@@ -338,4 +338,500 @@
 [2016.03.24-19.14.32:660][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027169F47060
 [2016.03.24-19.14.32:663][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002710782EAC0
 [2016.03.24-19.14.32:712][801]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.24-19.14.32:7
+[2016.03.24-19.14.32:731][801]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.24-19.14.32:803][801]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.545ms to complete.
+[2016.03.24-19.14.32:803][801]LogFileHelpers: Loading map 'BilowyLevel' took 0.176
+[2016.03.24-19.14.36:866][263]LogSavePackage: Save=7.632761ms
+[2016.03.24-19.14.36:866][263]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/UEDPCBilowyLevel5FCF554C421DE4482B3F46A534B84CEE.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Billowy/UEDPCBilowyLevel.umap'
+[2016.03.24-19.14.36:868][263]LogSavePackage: Total save time: 12.206096ms
+[2016.03.24-19.14.36:868][263]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Billowy/UEDPCBilowyLevel.umap
+[2016.03.24-19.14.59:050][847]LogSavePackage: Save=6.827664ms
+[2016.03.24-19.14.59:050][847]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/BilowyLevelE0DB506548F817548D0931987453FD50.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Billowy/BilowyLevel.umap'
+[2016.03.24-19.14.59:054][847]LogSavePackage: Total save time: 13.375256ms
+[2016.03.24-19.14.59:054][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Billowy/BilowyLevel.umap
+[2016.03.24-19.14.59:075][847]LogFileHelpers: Saving map 'BilowyLevel' took 0.127
+[2016.03.24-19.15.19:847][307]LogSavePackage: Save=8.048333ms
+[2016.03.24-19.15.19:847][307]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/UEDPCBilowyLevel044C5341476E7C17B601298D85D8574D.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Billowy/UEDPCBilowyLevel.umap'
+[2016.03.24-19.15.19:849][307]LogSavePackage: Total save time: 11.999190ms
+[2016.03.24-19.15.19:849][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Billowy/UEDPCBilowyLevel.umap
+[2016.03.24-19.15.44:486][632]LogSavePackage: Save=6.346831ms
+[2016.03.24-19.15.44:486][632]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/BilowyLevel1ADB60454D5E0B3249EB749A35E4DF72.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Billowy/BilowyLevel.umap'
+[2016.03.24-19.15.44:490][632]LogSavePackage: Total save time: 12.645960ms
+[2016.03.24-19.15.44:490][632]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Billowy/BilowyLevel.umap
+[2016.03.24-19.15.44:510][632]LogFileHelpers: Saving map 'BilowyLevel' took 0.130
+[2016.03.24-19.22.15:401][335]LogSavePackage: Save=7.473557ms
+[2016.03.24-19.22.15:401][335]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersLevelE1CBE371433380C6F07BDC9A81BAFC51.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap'
+[2016.03.24-19.22.15:409][335]LogSavePackage: Total save time: 15.683141ms
+[2016.03.24-19.22.15:409][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap
+[2016.03.24-19.22.15:410][335]LogFileHelpers: Saving map 'CylindersLevel' took 0.111
+[2016.03.24-19.22.29:214][743]LogSavePackage: Save=11.491723ms
+[2016.03.24-19.22.29:214][743]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersGameMode4BAD48164438428B391C28B2C835570D.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersGameMode.uasset'
+[2016.03.24-19.22.29:219][743]LogSavePackage: Total save time: 16.385518ms
+[2016.03.24-19.22.29:219][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersGameMode.uasset
+[2016.03.24-19.23.05:764][894]LogSavePackage: Save=10.829736ms
+[2016.03.24-19.23.05:764][894]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersPlayerController8862649147C7107374AED4AEDF40A479.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersPlayerController.uasset'
+[2016.03.24-19.23.05:768][894]LogSavePackage: Total save time: 15.489988ms
+[2016.03.24-19.23.05:768][894]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersPlayerController.uasset
+[2016.03.24-19.23.20:394][621]LogSavePackage: Save=8.350061ms
+[2016.03.24-19.23.20:394][621]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIE1F8BEF4437CD379B6C1878210D7D598.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.23.20:399][621]LogSavePackage: Total save time: 13.421789ms
+[2016.03.24-19.23.20:399][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.23.41:639][ 12]LogSavePackage: Save=15.657974ms
+[2016.03.24-19.23.41:639][ 12]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI3842B66A4F5CBED48B492A8D9D71F1F0.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.23.41:643][ 12]LogSavePackage: Total save time: 25.007162ms
+[2016.03.24-19.23.41:643][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.23.44:902][323]LogSavePackage: Save=15.374683ms
+[2016.03.24-19.23.44:902][323]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIFDA010F84242990015EBDBB1954FCC0D.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.23.44:906][323]LogSavePackage: Total save time: 21.447878ms
+[2016.03.24-19.23.44:906][323]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.24.20:091][788]LogSavePackage: Save=20.568743ms
+[2016.03.24-19.24.20:091][788]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI7EA8A4404EF963173F289DAE48AF530A.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.24.20:095][788]LogSavePackage: Total save time: 26.486248ms
+[2016.03.24-19.24.20:095][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.24.51:436][510]LogSavePackage: Save=32.690845ms
+[2016.03.24-19.24.51:436][510]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIAA7E01DC4F71DBF2A42EA5A5789442BA.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.24.51:441][510]LogSavePackage: Total save time: 39.076306ms
+[2016.03.24-19.24.51:441][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.26.24:708][536]BlueprintLog: New page: Compile CylindersUI
+[2016.03.24-19.26.24:770][536]BlueprintEditorCompileResults: Info [1912.72] Compile of CylindersUI successful! [in 62 ms]
+[2016.03.24-19.26.26:556][743]LogSavePackage: Save=18.497616ms
+[2016.03.24-19.26.26:556][743]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIF2E119114DC2A40C92FB0E8F96DE57C3.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.26.26:560][743]LogSavePackage: Total save time: 25.443219ms
+[2016.03.24-19.26.26:560][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.26.57:188][611]LogSavePackage: Save=18.097261ms
+[2016.03.24-19.26.57:188][611]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI249F6E754A021ACEE52D38A909CE499E.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.26.57:192][611]LogSavePackage: Total save time: 24.427995ms
+[2016.03.24-19.26.57:192][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.27.17:296][982]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.24-19.29.04:619][474]LogSavePackage: Save=29.341106ms
+[2016.03.24-19.29.04:619][474]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIC0C628864344141803EE89982DA4B529.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.29.04:623][474]LogSavePackage: Total save time: 38.330328ms
+[2016.03.24-19.29.04:623][474]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.29.34:286][  2]LogSavePackage: Save=32.682068ms
+[2016.03.24-19.29.34:286][  2]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIB240ABF94ACB5B7928864B8E733FBC2D.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.29.34:292][  2]LogSavePackage: Total save time: 40.629141ms
+[2016.03.24-19.29.34:292][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.30.01:389][200]LogActor:Warning: GameNetworkManager /Engine/Transient.World_10:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-19.30.03:651][443]LogActor:Warning: GameNetworkManager /Engine/Transient.World_11:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-19.30.36:159][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027186D81A80
+[2016.03.24-19.30.36:161][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027186D82E80
+[2016.03.24-19.30.36:161][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002717E5ACB80
+[2016.03.24-19.30.36:162][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000271077FAD40
+[2016.03.24-19.30.36:172][379]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000271077EB380
+[2016.03.24-19.30.36:224][379]LogSavePackage: Save=36.700527ms
+[2016.03.24-19.30.36:224][379]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI995CB66948E0B949DEADFD85E73A02A2.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.30.36:229][379]LogSavePackage: Total save time: 43.131057ms
+[2016.03.24-19.30.36:229][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.31.52:160][251]LogSavePackage: Save=39.165276ms
+[2016.03.24-19.31.52:160][251]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIDDA48B2946A2AFE41C64FF9407DAEF9D.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.31.52:164][251]LogSavePackage: Total save time: 45.381874ms
+[2016.03.24-19.31.52:164][251]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.33.41:032][321]LogSavePackage: Save=44.553951ms
+[2016.03.24-19.33.41:032][321]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI7FA6C8A846DEF2427E770B8A55F99D0E.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.33.41:036][321]LogSavePackage: Total save time: 51.300548ms
+[2016.03.24-19.33.41:036][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.34.19:688][801]LogSavePackage: Save=47.370472ms
+[2016.03.24-19.34.19:688][801]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUID1ACCF344C02CEF759D5B1B8743D38B7.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.34.19:692][801]LogSavePackage: Total save time: 56.656156ms
+[2016.03.24-19.34.19:692][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.35.26:971][637]LogSavePackage: Save=50.392731ms
+[2016.03.24-19.35.26:971][637]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIFF7F5F984FC7CADF7E62FF83A06DE6EB.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.35.26:976][637]LogSavePackage: Total save time: 57.575386ms
+[2016.03.24-19.35.26:976][637]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.36.34:729][558]LogSavePackage: Save=58.558418ms
+[2016.03.24-19.36.34:729][558]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI82CC787B40BCD9524C7A338A07EDB56C.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.36.34:733][558]LogSavePackage: Total save time: 64.155463ms
+[2016.03.24-19.36.34:733][558]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.36.44:414][693]LogSavePackage: Save=60.014965ms
+[2016.03.24-19.36.44:414][693]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIB446D0D54B0FA94322FBEEB1E75055C0.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.36.44:418][693]LogSavePackage: Total save time: 66.269610ms
+[2016.03.24-19.36.44:418][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.36.55:280][944]LogSavePackage: Save=59.247623ms
+[2016.03.24-19.36.55:280][944]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIAB3775014DE356CE9D1D9AB17997795E.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.36.55:284][944]LogSavePackage: Total save time: 65.621965ms
+[2016.03.24-19.36.55:284][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.36.59:441][421]BlueprintLog: New page: Compile CylindersUI
+[2016.03.24-19.36.59:457][421]LogBlueprint:Error: [compiler CylindersUI] Error This blueprint (self) is not a NoiseMap, therefore ' Target ' must have a connection.
+[2016.03.24-19.36.59:457][421]LogBlueprint:Error: [compiler CylindersUI] Error This blueprint (self) is not a NoiseMap, therefore ' Target ' must have a connection.
+[2016.03.24-19.36.59:562][421]LogBlueprint:Warning: [compiler CylindersUI] Warning [2547.51] Compile of CylindersUI failed. 2 Fatal Issue(s) 0 Warning(s) [in 121 ms]
+[2016.03.24-19.36.59:562][421]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a NoiseMap, therefore ' Target ' must have a connection.
+[2016.03.24-19.36.59:562][421]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a NoiseMap, therefore ' Target ' must have a connection.
+[2016.03.24-19.36.59:562][421]BlueprintEditorCompileResults:Warning: Warning [2547.51] Compile of CylindersUI failed. 2 Fatal Issue(s) 0 Warning(s) [in 121 ms]
+[2016.03.24-19.37.29:422][743]BlueprintLog: New page: Compile CylindersUI
+[2016.03.24-19.37.29:495][743]BlueprintEditorCompileResults: Info [2577.44] Compile of CylindersUI successful! [in 73 ms]
+[2016.03.24-19.37.34:470][311]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027182D053A0
+[2016.03.24-19.37.34:919][311]LogSavePackage: Save=48.124645ms
+[2016.03.24-19.37.34:919][311]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI8914443842EB3F81D3D4178E42C4397B.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.37.34:924][311]LogSavePackage: Total save time: 54.870658ms
+[2016.03.24-19.37.34:924][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.37.36:303][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027182D060C0
+[2016.03.24-19.37.36:310][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027182D07F60
+[2016.03.24-19.37.39:541][822]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:134).
+[2016.03.24-19.37.57:488][908]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.24-19.38.08:474][204]BlueprintLog: New page: Compile CylindersPlayerController
+[2016.03.24-19.38.08:536][204]BlueprintEditorCompileResults: Info [2616.48] Compile of CylindersPlayerController successful! [in 62 ms]
+[2016.03.24-19.38.10:573][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002711CFBD300
+[2016.03.24-19.38.11:041][438]LogSavePackage: Save=11.281011ms
+[2016.03.24-19.38.11:041][438]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersPlayerController5AEC1D1744BA3C5D09A7439EA95C6D1A.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersPlayerController.uasset'
+[2016.03.24-19.38.11:045][438]LogSavePackage: Total save time: 21.531578ms
+[2016.03.24-19.38.11:045][438]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersPlayerController.uasset
+[2016.03.24-19.38.16:818][127]Cmd: MAP LOAD FILE="../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.24-19.38.16:818][127]LightingResults: New page: Lighting Build
+[2016.03.24-19.38.16:833][127]LoadErrors: New page: Loading map: CylindersLevel.umap
+[2016.03.24-19.38.16:833][127]MapCheck: New page: Map Check
+[2016.03.24-19.38.16:833][127]LightingResults: New page: Lighting Build
+[2016.03.24-19.38.16:854][127]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027182D04540
+[2016.03.24-19.38.16:855][127]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000271077E9620
+[2016.03.24-19.38.16:861][127]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000271504C7D80
+[2016.03.24-19.38.16:892][127]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.24-19.38.16:892][127]LogAIModule: Creating AISystem for world CylindersLevel
+[2016.03.24-19.38.16:913][127]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.24-19.38.16:986][127]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.58ms to complete.
+[2016.03.24-19.38.16:987][127]LogFileHelpers: Loading map 'CylindersLevel' took 0.170
+[2016.03.24-19.38.18:455][299]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.24-19.38.20:074][489]Cmd: UpdateLandscapeSetup
+[2016.03.24-19.38.25:065][ 79]LogSavePackage: Save=6.387803ms
+[2016.03.24-19.38.25:065][ 79]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersLevel8227032849967AB14D4CA88DDC7B3234.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap'
+[2016.03.24-19.38.25:068][ 79]LogSavePackage: Total save time: 13.496712ms
+[2016.03.24-19.38.25:068][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap
+[2016.03.24-19.38.31:018][335]LogSavePackage: Save=9.147549ms
+[2016.03.24-19.38.31:019][335]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersGameMode12C0350F45A2E9B98ADDD69FABAF6449.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersGameMode.uasset'
+[2016.03.24-19.38.31:022][335]LogSavePackage: Total save time: 18.485323ms
+[2016.03.24-19.38.31:022][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersGameMode.uasset
+[2016.03.24-19.38.31:081][335]LogSavePackage: Save=7.659393ms
+[2016.03.24-19.38.31:081][335]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/UEDPCCylindersLevel5094C520483927AABACDF6B3BE8EB45B.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/UEDPCCylindersLevel.umap'
+[2016.03.24-19.38.31:085][335]LogSavePackage: Total save time: 14.113043ms
+[2016.03.24-19.38.31:085][335]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/UEDPCCylindersLevel.umap
+[2016.03.24-19.38.47:276][620]LogSavePackage: Save=6.314053ms
+[2016.03.24-19.38.47:276][620]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersLevelFD56DD7B448ACB972FA77D949380FA24.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap'
+[2016.03.24-19.38.47:280][620]LogSavePackage: Total save time: 13.208736ms
+[2016.03.24-19.38.47:280][620]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap
+[2016.03.24-19.38.47:341][620]LogFileHelpers: Saving map 'CylindersLevel' took 0.177
+[2016.03.24-19.38.56:535][684]BlueprintLog: New page: Compile CylindersPlayerController
+[2016.03.24-19.38.56:592][684]BlueprintEditorCompileResults: Info [2664.54] Compile of CylindersPlayerController successful! [in 57 ms]
+[2016.03.24-19.38.57:800][819]LogSavePackage: Save=12.242679ms
+[2016.03.24-19.38.57:800][819]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersPlayerControllerE7FAA7F744318B4EBF4E02936A4034F9.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersPlayerController.uasset'
+[2016.03.24-19.38.57:804][819]LogSavePackage: Total save time: 19.320272ms
+[2016.03.24-19.38.57:804][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersPlayerController.uasset
+[2016.03.24-19.39.02:423][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002717B5D8EA0
+[2016.03.24-19.39.02:479][317]LogSavePackage: Save=7.475019ms
+[2016.03.24-19.39.02:479][317]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/UEDPCCylindersLevel33FC4F854BB028CD02CE11814D11013E.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/UEDPCCylindersLevel.umap'
+[2016.03.24-19.39.02:480][317]LogSavePackage: Total save time: 12.126200ms
+[2016.03.24-19.39.02:480][317]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/UEDPCCylindersLevel.umap
+[2016.03.24-19.39.15:902][662]LogSavePackage: Save=6.419702ms
+[2016.03.24-19.39.15:902][662]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersLevelA23342B64D5303CF0FEAA186273E018E.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap'
+[2016.03.24-19.39.15:906][662]LogSavePackage: Total save time: 13.573382ms
+[2016.03.24-19.39.15:906][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap
+[2016.03.24-19.39.15:926][662]LogFileHelpers: Saving map 'CylindersLevel' took 0.130
+[2016.03.24-19.40.14:903][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000271637E0720
+[2016.03.24-19.40.14:975][537]LogSavePackage: Save=51.223286ms
+[2016.03.24-19.40.14:975][537]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI66B8564F4618F79911F87399B2E9FB72.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.40.14:981][537]LogSavePackage: Total save time: 63.568689ms
+[2016.03.24-19.40.14:981][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.40.16:322][696]BlueprintLog: New page: Compile CylindersUI
+[2016.03.24-19.40.16:397][696]BlueprintEditorCompileResults: Info [2744.34] Compile of CylindersUI successful! [in 75 ms]
+[2016.03.24-19.40.17:204][781]LogSavePackage: Save=50.288250ms
+[2016.03.24-19.40.17:204][781]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI33F6EFB3491C6D55663C179F29235EC3.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-19.40.17:206][781]LogSavePackage: Total save time: 54.786962ms
+[2016.03.24-19.40.17:206][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-19.40.18:921][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027174013240
+[2016.03.24-19.40.18:922][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027174011D00
+[2016.03.24-19.40.18:979][970]LogSavePackage: Save=8.062673ms
+[2016.03.24-19.40.18:979][970]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/UEDPCCylindersLevel8C9412BE4D2CC9152CEC0DA78F1210A0.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/UEDPCCylindersLevel.umap'
+[2016.03.24-19.40.18:981][970]LogSavePackage: Total save time: 12.596793ms
+[2016.03.24-19.40.18:981][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/UEDPCCylindersLevel.umap
+[2016.03.24-19.49.16:865][650]LogSavePackage: Save=6.897316ms
+[2016.03.24-19.49.16:865][650]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersLevel_Auto13AAB56514CCDF8D3774847B1315CB9E2.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/CylindersLevel_Auto1.umap'
+[2016.03.24-19.49.16:866][650]LogSavePackage: Total save time: 12.840867ms
+[2016.03.24-19.49.16:866][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/CylindersLevel_Auto1.umap
+[2016.03.24-19.49.16:868][650]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Examples/Cylinders/CylindersLevel' took 0.560
+[2016.03.24-19.49.16:868][650]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.560
+[2016.03.24-21.35.23:776][587]Cmd: TRANSACTION UNDO
+[2016.03.24-21.35.23:776][587]LogEditorTransaction: Undo Add Node
+[2016.03.24-21.35.23:926][587]LogSavePackage: Save=7.412977ms
+[2016.03.24-21.35.23:926][587]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersLevel104AB49B4C9FCF4C255D9D84ECCE95C2.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap'
+[2016.03.24-21.35.23:929][587]LogSavePackage: Total save time: 15.104853ms
+[2016.03.24-21.35.23:929][587]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap
+[2016.03.24-21.35.23:952][587]LogFileHelpers: Saving map 'CylindersLevel' took 0.138
+[2016.03.24-21.35.25:092][692]LogSavePackage: Save=51.334496ms
+[2016.03.24-21.35.25:092][692]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUIF32C742442394CD6CC199C9DAAD8D4C9.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-21.35.25:093][692]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset', retrying in .5s...
+[2016.03.24-21.35.25:594][692]LogFileManager:Error: Error deleting file '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'.
+[2016.03.24-21.35.25:594][692]LogSavePackage:Error: Error saving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-21.35.25:595][692]LogSavePackage: Total save time: 561.042335ms
+[2016.03.24-21.35.25:595][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-21.35.30:477][692]EditorErrors: New page: Save Output
+[2016.03.24-21.35.30:477][692]EditorErrors:Warning: Warning Error saving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-21.35.52:960][191]BlueprintLog: New page: Compile CylindersUI
+[2016.03.24-21.35.53:036][191]BlueprintEditorCompileResults: Info [9680.98] Compile of CylindersUI successful! [in 74 ms]
+[2016.03.24-21.35.53:686][258]LogSavePackage: Save=48.786926ms
+[2016.03.24-21.35.53:686][258]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI1B4A19D842D496F9EFDF27ABFB4413E1.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-21.35.53:687][258]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset', retrying in .5s...
+[2016.03.24-21.35.54:187][258]LogFileManager:Error: Error deleting file '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'.
+[2016.03.24-21.35.54:187][258]LogSavePackage:Error: Error saving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-21.35.54:188][258]LogSavePackage: Total save time: 554.199159ms
+[2016.03.24-21.35.54:188][258]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-21.36.01:559][258]EditorErrors: New page: Save Output
+[2016.03.24-21.36.01:559][258]EditorErrors:Warning: Warning Error saving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-21.36.11:531][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.24-21.36.11:531][200]PIE: New page: PIE session: CylindersLevel (Mar 24, 2016, 1:36:11 PM)
+[2016.03.24-21.36.11:531][200]LogPlayLevel: Creating play world package: /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel
+[2016.03.24-21.36.11:531][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000459s)
+[2016.03.24-21.36.11:532][200]LogAIModule: Creating AISystem for world CylindersLevel
+[2016.03.24-21.36.11:532][200]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2016.03.24-21.36.11:532][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Examples/Cylinders/CylindersLevel.CylindersLevel to /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel.CylindersLevel (0.001275s)
+[2016.03.24-21.36.11:608][200]LogInit: XAudio2 using 'NS-32D312NA15-4 (3- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.24-21.36.11:619][200]LogInit: FAudioDevice initialized.
+[2016.03.24-21.36.11:668][200]LogWorld: Game class is 'CylindersGameMode_C'
+[2016.03.24-21.36.11:670][200]LogWorld: Bringing World /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel.CylindersLevel up for play (max tick rate 0) at 2016.03.24-17.36.11
+[2016.03.24-21.36.11:670][200]LogActor:Warning: GameSession /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel.CylindersLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-21.36.11:670][200]LogActor:Warning: GameNetworkManager /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel.CylindersLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-21.36.11:670][200]LogWorld: Bringing up level for play took: 0.001124
+[2016.03.24-21.36.11:915][200]PIE: Info Play in editor start time for /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel 0.599
+[2016.03.24-21.36.13:957][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002718647EAC0
+[2016.03.24-21.36.16:001][658]LogSavePackage: Save=51.007309ms
+[2016.03.24-21.36.16:001][658]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersUI589741B2478DD4B3A6FCD4997C99D240.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset'
+[2016.03.24-21.36.16:005][658]LogSavePackage: Total save time: 57.887651ms
+[2016.03.24-21.36.16:005][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersUI.uasset
+[2016.03.24-21.36.21:006][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.24-21.36.21:006][249]PIE: New page: PIE session: CylindersLevel (Mar 24, 2016, 1:36:21 PM)
+[2016.03.24-21.36.21:006][249]LogPlayLevel: Creating play world package: /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel
+[2016.03.24-21.36.21:007][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000607s)
+[2016.03.24-21.36.21:007][249]LogAIModule: Creating AISystem for world CylindersLevel
+[2016.03.24-21.36.21:007][249]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2016.03.24-21.36.21:007][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Examples/Cylinders/CylindersLevel.CylindersLevel to /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel.CylindersLevel (0.001223s)
+[2016.03.24-21.36.21:024][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002713A04B380
+[2016.03.24-21.36.21:024][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002713A049080
+[2016.03.24-21.36.21:077][249]LogInit: XAudio2 using 'NS-32D312NA15-4 (3- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.24-21.36.21:088][249]LogInit: FAudioDevice initialized.
+[2016.03.24-21.36.21:121][249]LogWorld: Game class is 'CylindersGameMode_C'
+[2016.03.24-21.36.21:123][249]LogWorld: Bringing World /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel.CylindersLevel up for play (max tick rate 0) at 2016.03.24-17.36.21
+[2016.03.24-21.36.21:123][249]LogActor:Warning: GameSession /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel.CylindersLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-21.36.21:123][249]LogActor:Warning: GameNetworkManager /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel.CylindersLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.24-21.36.21:123][249]LogWorld: Bringing up level for play took: 0.001287
+[2016.03.24-21.36.21:388][249]PIE: Info Play in editor start time for /Game/Examples/Cylinders/UEDPIE_0_CylindersLevel 0.072
+[2016.03.24-21.36.51:489][720]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002719A8244A0
+[2016.03.24-21.36.54:575][ 68]LogSavePackage: Save=7.647394ms
+[2016.03.24-21.36.54:575][ 68]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/UEDPCCylindersLevel387B3FE048C733317669B499C9A204DE.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/UEDPCCylindersLevel.umap'
+[2016.03.24-21.36.54:577][ 68]LogSavePackage: Total save time: 12.408614ms
+[2016.03.24-21.36.54:577][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/Autosaves/Game/Examples/Cylinders/UEDPCCylindersLevel.umap
+[2016.03.24-21.37.31:215][116]LogSavePackage: Save=6.280983ms
+[2016.03.24-21.37.31:215][116]LogSavePackage: Moving '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Saved/CylindersLevel99B692FA4791BEAD6A6FB598F99A65EE.tmp' to '../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap'
+[2016.03.24-21.37.31:219][116]LogSavePackage: Total save time: 13.874233ms
+[2016.03.24-21.37.31:219][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mjham/Documents/GitHub/UnrealLibNoise/ULNExample/Content/Examples/Cylinders/CylindersLevel.umap
+[2016.03.24-21.37.31:239][116]LogFileHelpers: Saving map 'CylindersLevel' took 0.130
+[2016.03.24-21.37.32:594][249]Cmd: QUIT_EDITOR
+[2016.03.24-21.37.33:110][249]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.24-21.37.33:163][249]LogExit: Preparing to exit.
+[2016.03.24-21.37.33:562][249]LogExit: Editor shut down
+[2016.03.24-21.37.33:563][249]LogExit: Transaction tracking system shut down
+[2016.03.24-21.37.33:563][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000027150B83880
+[2016.03.24-21.37.33:564][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002715146DA80
+[2016.03.24-21.37.33:568][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002716F111A80
+[2016.03.24-21.37.33:716][249]LogExit: Object subsystem successfully closed.
+[2016.03.24-21.37.33:729][249]LogD3D11RHI: Shutdown
+[2016.03.24-21.37.33:729][249]LogD3D11RHI: CleanupD3DDevice
+[2016.03.24-21.37.33:778][249]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.24-21.37.33:798][249]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2016.03.24-21.37.33:798][249]LogModuleManager: Shutting down and abandoning module SequencerWidgets (201)
+[2016.03.24-21.37.33:798][249]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.03.24-21.37.33:798][249]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.03.24-21.37.33:798][249]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.03.24-21.37.33:798][249]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.03.24-21.37.33:798][249]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.03.24-21.37.33:798][249]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.03.24-21.37.33:801][249]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.03.24-21.37.34:042][249]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.03.24-21.37.34:043][249]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.03.24-21.37.34:043][249]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.03.24-21.37.34:043][249]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.03.24-21.37.34:043][249]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.03.24-21.37.34:043][249]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.03.24-21.37.34:043][249]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.03.24-21.37.34:043][249]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.03.24-21.37.34:044][249]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.03.24-21.37.34:226][249]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.03.24-21.37.34:226][249]LogModuleManager: Shutting down and abandoning module UnrealLibNoise (122)
+[2016.03.24-21.37.34:226][249]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.24-21.37.34:226][249]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.24-21.37.34:226][249]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.24-21.37.34:226][249]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.24-21.37.34:226][249]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.24-21.37.34:226][249]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.03.24-21.37.34:226][249]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.24-21.37.34:235][249]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.24-21.37.34:236][249]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.24-21.37.34:237][249]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.24-21.37.34:272][249]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.24-21.37.34:273][249]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.24-21.37.34:273][249]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.24-21.37.34:374][249]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.24-21.37.34:374][249]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.24-21.37.34:374][249]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.24-21.37.34:376][249]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.24-21.37.34:377][249]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.24-21.37.34:475][249]LogDerivedDataCache: Shutdown
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.24-21.37.34:475][249]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.24-21.37.35:477][249]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.24-21.37.35:477][249]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.24-21.37.35:477][249]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.24-21.37.35:477][249]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.24-21.37.35:477][249]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.24-21.37.35:477][249]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.24-21.37.35:477][249]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.24-21.37.35:483][249]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.24-21.37.35:484][249]LogExit: Exiting.
+[2016.03.24-21.37.35:495][249]Log file closed, 03/24/16 17:37:35
