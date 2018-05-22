@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class UnrealLibNoise : ModuleRules
 {
-	public UnrealLibNoise(TargetInfo Target)
+	public UnrealLibNoise(ReadOnlyTargetRules Target) : base(Target)
 	{
 		
 		PublicIncludePaths.AddRange(
