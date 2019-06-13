@@ -4,16 +4,7 @@
 #include "../Noise.h"
 #include "TranslatePoint.h"
 
-/// Constructor.
-///
-/// The default translation amount to apply to the @a x coordinate is
-/// set to noise::module::DEFAULT_TRANSLATE_POINT_X.
-///
-/// The default translation amount to apply to the @a y coordinate is
-/// set to noise::module::DEFAULT_TRANSLATE_POINT_Y.
-///
-/// The default translation amount to apply to the @a z coordinate is
-/// set to noise::module::DEFAULT_TRANSLATE_POINT_Z.
+
 UTranslatePoint::UTranslatePoint(const FObjectInitializer& ObjectInit) : Super(ObjectInit)
 {
 	xTranslation = DEFAULT_TRANSLATE_POINT_X;

@@ -22,8 +22,8 @@
 #include "UnrealLibNoise.h"
 #include "Abs.h"
 
-///Constructor
-UAbs::UAbs(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
+// function already have a body
+//UAbs::UAbs(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
 
 float UAbs::GetValue(FVector Coordinates)
 {

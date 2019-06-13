@@ -51,11 +51,16 @@ const float DEFAULT_SCALE = 1.0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UScaleBias : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
 
-
+	/// Constructor.
+	///
+	/// The default bias is set to noise::module::DEFAULT_BIAS.
+	///
+	/// The default scaling factor is set to noise::module::DEFAULT_SCALE.
+	UScaleBias(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Returns the bias to apply to the scaled output value from the
 	/// source module.
@@ -66,7 +71,7 @@ public:
 	/// module, multiplies it with the scaling factor, adds the bias to
 	/// it, then outputs the value.
 	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetBias() const
+	FORCEINLINE float GetBias() const
 	{
 		return Bias;
 	}
@@ -80,19 +85,18 @@ public:
 	/// module, multiplies it with the scaling factor, adds the bias to
 	/// it, then outputs the value.
 	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetScale() const
+	FORCEINLINE float GetScale() const
 	{
 		return Scale;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 1;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Sets the bias to apply to the scaled output value from the source
 	/// module.

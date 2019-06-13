@@ -3,8 +3,6 @@
 #include "UnrealLibNoise.h"
 #include "Add.h"
 
-///Constructor
-UAdd::UAdd(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
 
 float UAdd::GetValue(FVector Coordinates)
 {

@@ -64,9 +64,11 @@
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UTerrace : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 public:
+
+	UTerrace(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Adds a control point to the terrace-forming curve.
 	///
@@ -118,13 +120,12 @@ public:
 	/// @returns The number of control points on the terrace-forming
 	/// curve.
 	UFUNCTION(BlueprintCallable, Category = "Generation")
-	int32 GetControlPointCount() const
+	FORCEINLINE int32 GetControlPointCount() const
 	{
 		return ControlPointCount;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 1;
 	}
@@ -153,8 +154,7 @@ public:
 		return ShouldInvertTerraces;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Creates a number of equally-spaced control points that range from
 	/// -1 to +1.

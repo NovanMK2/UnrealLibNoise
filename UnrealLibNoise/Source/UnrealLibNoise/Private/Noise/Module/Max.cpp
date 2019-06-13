@@ -3,8 +3,6 @@
 #include "UnrealLibNoise.h"
 #include "Max.h"
 
-///Constructor
-UMax::UMax(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
 
 float UMax::GetValue(FVector Coordinates)
 {

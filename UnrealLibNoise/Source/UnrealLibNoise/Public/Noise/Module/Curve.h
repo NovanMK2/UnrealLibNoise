@@ -74,9 +74,11 @@ struct  FControlPoint
 UCLASS()
 class UNREALLIBNOISE_API UCurve : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
+
+	UCurve(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Adds a control point to the curve.
 	///
@@ -123,14 +125,13 @@ public:
 		return ControlPointCount;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 1;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+
+	virtual float GetValue(FVector Coordinates) override;
 
 protected:
 

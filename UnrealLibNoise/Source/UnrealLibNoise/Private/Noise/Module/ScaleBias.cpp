@@ -3,11 +3,7 @@
 #include "UnrealLibNoise.h"
 #include "ScaleBias.h"
 
-/// Constructor.
-///
-/// The default bias is set to noise::module::DEFAULT_BIAS.
-///
-/// The default scaling factor is set to noise::module::DEFAULT_SCALE.
+
 UScaleBias::UScaleBias(const FObjectInitializer& ObjectInit) : Super(ObjectInit), Bias(DEFAULT_BIAS), Scale(DEFAULT_SCALE)
 {
 }

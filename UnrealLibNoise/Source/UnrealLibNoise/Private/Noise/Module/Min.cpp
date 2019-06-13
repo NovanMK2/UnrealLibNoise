@@ -3,9 +3,6 @@
 #include "UnrealLibNoise.h"
 #include "Min.h"
 
-///Constructor
-UMin::UMin(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
-
 float UMin::GetValue(FVector Coordinates)
 {
 	if (GetSourceModule(0) == NULL) throw ExceptionNoModule();

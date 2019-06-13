@@ -7,7 +7,7 @@
 ///
 /// The default frequency is set to
 /// DEFAULT_CYLINDERS_FREQUENCY.
-UCylinders::UCylinders(const FObjectInitializer& ObjectInit) : Super(ObjectInit) { Frequency = DEFAULT_CYLINDERS_FREQUENCY; }
+UCylinders::UCylinders(const FObjectInitializer& ObjectInit) : Super(ObjectInit), Frequency(DEFAULT_CYLINDERS_FREQUENCY) {}
 
 float UCylinders::GetValue(FVector Coordinates) 
 {

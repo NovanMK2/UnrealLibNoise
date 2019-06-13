@@ -157,6 +157,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Generation")
 	void GenerateCylinder(float LowerAngleBounds, float LowerHeightBounds, float UpperAngleBounds, float UpperHeight);
 	UFUNCTION(BlueprintCallable, Category = "Generation")
+	void GenerateTorus(float LowerAngleBounds, float LowerHeightBounds, float UpperAngleBounds, float UpperHeight);
+	UFUNCTION(BlueprintCallable, Category = "Generation")
 	void GenerateColorArray(FGradient Gradient);
 	UFUNCTION(BlueprintCallable, Category = "Generation")
 	UTexture2D* GenerateTexture();

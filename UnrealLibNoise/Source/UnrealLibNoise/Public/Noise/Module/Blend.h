@@ -63,7 +63,7 @@
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UBlend : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
 
@@ -121,11 +121,9 @@ public:
 		SetSourceModule(2, ControlModule);
 	}
 	
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const { return 3; }
+	virtual int32 GetSourceModuleCount() const override { return 3; } 
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	virtual float GetValue(FVector Coordinates) override;
 
 };
 

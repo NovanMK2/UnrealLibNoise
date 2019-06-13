@@ -60,22 +60,22 @@
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UCache : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 
 public:
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	UCache(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
+
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 1;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	virtual float GetValue(FVector Coordinates) override;
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual void SetSourceModule(int32 index, UNoiseModule* sourceModule)
+	
+	FORCEINLINE virtual void SetSourceModule(int32 index, UNoiseModule* sourceModule) override
 	{
 		SetSourceModule(index, sourceModule);
 		IsCached = false;

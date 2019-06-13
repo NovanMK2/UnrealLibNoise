@@ -4,8 +4,6 @@
 #include "../Exception.h"
 #include "Multiply.h"
 
-///Constuctor
-UMultiply::UMultiply(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
 
 float UMultiply::GetValue(FVector Coordinates)
 {

@@ -108,10 +108,11 @@ const int32 DEFAULT_TURBULENCE_SEED = 0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UTurbulence : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 public:
 
+	UTurbulence(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 
 	/// Returns the frequency of the turbulence.
@@ -129,8 +130,8 @@ public:
 	///
 	/// The power of the turbulence determines the scaling factor that is
 	/// applied to the displacement amount.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetPower() 
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	FORCEINLINE float GetPower() 
 	{
 		return Power;
 	}
@@ -143,8 +144,8 @@ public:
 	/// changes to the displacement amount.  Low values smoothly change
 	/// the displacement amount.  High values roughly change the
 	/// displacement amount, which produces more "kinky" changes.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	int32 GetRoughnessCount()
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	FORCEINLINE int32 GetRoughnessCount()
 	{
 		return xDistortModule->GetOctaveCount();
 	}
@@ -157,17 +158,15 @@ public:
 	/// Internally, there are three noise::module::Perlin noise modules
 	/// that displace the input value; one for the @a x, one for the @a y,
 	/// and one for the @a z coordinate.  
-	UFUNCTION(BlueprintCallable, Category = "Generation")
+	UFUNCTION(BlueprintPure, Category = "Generation")
 	int32 GetSeed();
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 1;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Sets the frequency of the turbulence.
 	///

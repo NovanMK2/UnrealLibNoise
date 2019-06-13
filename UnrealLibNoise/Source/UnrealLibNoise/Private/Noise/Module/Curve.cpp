@@ -4,9 +4,9 @@
 #include "../Noise.h"
 #include "Curve.h"
 
-UCurve::UCurve(const FObjectInitializer& ObjectInit) : Super(ObjectInit)
+UCurve::UCurve(const FObjectInitializer& ObjectInit) : Super(ObjectInit), ControlPointCount(0)
 {	
-	ControlPointCount = 0;	
+
 }
 
 

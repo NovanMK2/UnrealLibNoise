@@ -64,48 +64,58 @@ const float DEFAULT_ROTATE_Z = 0.0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API URotatePoint : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
-	
-	
-public:
+	GENERATED_BODY()
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+public:
+	/// Constructor.
+	///
+	/// The default rotation angle around the @a x axis, in degrees, is
+	/// set to noise::module::DEFAULT_ROTATE_X.
+	///
+	/// The default rotation angle around the @a y axis, in degrees, is
+	/// set to noise::module::DEFAULT_ROTATE_Y.
+	///
+	/// The default rotation angle around the @a z axis, in degrees, is
+	/// set to noise::module::DEFAULT_ROTATE_Z.
+	URotatePoint(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
+
+
+	virtual int32 GetSourceModuleCount() const override
 	{
 		return 1;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Returns the rotation angle around the @a x axis to apply to the
 	/// input value.
 	///
 	/// @returns The rotation angle around the @a x axis, in degrees.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
+	UFUNCTION(BlueprintPure, Category = "Generation")
 	float GetXAngle() const
 	{
-		return xAngle;
+		return _xAngle;
 	}
 
 	/// Returns the rotation angle around the @a y axis to apply to the
 	/// input value.
 	///
 	/// @returns The rotation angle around the @a y axis, in degrees.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
+	UFUNCTION(BlueprintPure, Category = "Generation")
 	float GetYAngle() const
 	{
-		return yAngle;
+		return _yAngle;
 	}
 
 	/// Returns the rotation angle around the @a z axis to apply to the
 	/// input value.
 	///
 	/// @returns The rotation angle around the @a z axis, in degrees.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
+	UFUNCTION(BlueprintPure, Category = "Generation")
 	float GetZAngle() const
 	{
-		return zAngle;
+		return _zAngle;
 	}
 
 	/// Sets the rotation angles around all three axes to apply to the
@@ -119,7 +129,7 @@ public:
 	/// around the origin before returning the output value from the
 	/// source module.
 	UFUNCTION(BlueprintCallable, Category = "Generation")
-	void SetAngles(float xAngle, float yAngle, float zAngle);
+	void SetAngles(float _xAngle, float _yAngle, float _zAngle);
 
 	/// Sets the rotation angle around the @a x axis to apply to the input
 	/// value.
@@ -132,7 +142,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Generation")
 	void SetXAngle(float InxAngle)
 	{
-		SetAngles(InxAngle, yAngle, zAngle);
+		SetAngles(InxAngle, _yAngle, _zAngle);
 	}
 
 	/// Sets the rotation angle around the @a y axis to apply to the input
@@ -146,7 +156,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Generation")
 	void SetYAngle(float InyAngle)
 	{
-		SetAngles(xAngle, InyAngle, zAngle);
+		SetAngles(_xAngle, InyAngle, _zAngle);
 	}
 
 	/// Sets the rotation angle around the @a z axis to apply to the input
@@ -160,55 +170,55 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Generation")
 	void SetZAngle(float InzAngle)
 	{
-		SetAngles(xAngle, yAngle, InzAngle);
+		SetAngles(_xAngle, _yAngle, InzAngle);
 	}
 
 protected:
 
 	/// An entry within the 3x3 rotation matrix used for rotating the
 	/// input value.
-	float x1Matrix;
+	float _x1Matrix;
 
 	/// An entry within the 3x3 rotation matrix used for rotating the
 	/// input value.
-	float x2Matrix;
+	float _x2Matrix;
 
 	/// An entry within the 3x3 rotation matrix used for rotating the
 	/// input value.
-	float x3Matrix;
+	float _x3Matrix;
 
 	/// @a x rotation angle applied to the input value, in degrees.
-	float xAngle;
+	float _xAngle;
 
 	/// An entry within the 3x3 rotation matrix used for rotating the
 	/// input value.
-	float y1Matrix;
+	float _y1Matrix;
 
 	/// An entry within the 3x3 rotation matrix used for rotating the
 	/// input value.
-	float y2Matrix;
+	float _y2Matrix;
 
 	/// An entry within the 3x3 rotation matrix used for rotating the
 	/// input value.
-	float y3Matrix;
+	float _y3Matrix;
 
 	/// @a y rotation angle applied to the input value, in degrees.
-	float yAngle;
+	float _yAngle;
 
 	/// An entry within the 3x3 rotation matrix used for rotating the
 	/// input value.
-	float z1Matrix;
+	float _z1Matrix;
 
 	/// An entry within the 3x3 rotation matrix used for rotating the
 	/// input value.
-	float z2Matrix;
+	float _z2Matrix;
 
 	/// An entry within the 3x3 rotation matrix used for rotating the
 	/// input value.
-	float z3Matrix;
+	float _z3Matrix;
 
 	/// @a z rotation angle applied to the input value, in degrees.
-	float zAngle;
+	float _zAngle;
 
 };
 

@@ -64,9 +64,11 @@ const float DEFAULT_CYLINDERS_FREQUENCY = 1.0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UCylinders : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
+
+	UCylinders(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 		
 	/// Returns the frequency of the concentric cylinders.
 	///
@@ -80,14 +82,12 @@ public:
 		return Frequency;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 0;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Sets the frequency of the concentric cylinders.
 	///

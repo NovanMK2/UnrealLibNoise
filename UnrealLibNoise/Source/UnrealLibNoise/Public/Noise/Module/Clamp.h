@@ -61,9 +61,11 @@ const float DEFAULT_CLAMP_UPPER_BOUND = 1.0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UClamp : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
+
+	UClamp(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Returns the lower bound of the clamping range.
 	///
@@ -78,8 +80,7 @@ public:
 		return LowerBound;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 1;
 	}

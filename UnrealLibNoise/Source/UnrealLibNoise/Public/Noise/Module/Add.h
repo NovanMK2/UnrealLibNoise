@@ -41,15 +41,12 @@
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UAdd : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
-
-	UFUNCTION(BlueprintCallable, Category = "Generation")
 	virtual float GetValue(FVector Coordinates) override;
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const { return 0; }
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override { return 0; }
 };
 
 /// @}

@@ -49,9 +49,10 @@ const float DEFAULT_CONST_VALUE = 0.0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UConst : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
+	UConst(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Returns the constant output value for this noise module.
 	///
@@ -62,14 +63,12 @@ public:
 		return ConstValue;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 0;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates)
+	FORCEINLINE virtual float GetValue(FVector Coordinates) override
 	{
 		return ConstValue;
 	}
