@@ -82,9 +82,11 @@ const int32 DEFAULT_VORONOI_SEED = 0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UVoronoi : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
+
+	UVoronoi(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Enables or disables applying the distance from the nearest seed
 	/// point to the output value.
@@ -112,8 +114,8 @@ public:
 	/// value from a coherent-noise function.  The <i>displacement
 	/// value</i> controls the range of random values to assign to each
 	/// cell.  The range of random values is +/- the displacement value.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetDisplacement() const
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	FORCEINLINE float GetDisplacement() const
 	{
 		return Displacement;
 	}
@@ -124,14 +126,14 @@ public:
 	///
 	/// The frequency determines the size of the Voronoi cells and the
 	/// distance between these cells.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetFrequency() const
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	FORCEINLINE float GetFrequency() const
 	{
 		return Frequency;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+
+	FORCEINLINE virtual int32 GetSourceModuleCount() const
 	{
 		return 0;
 	}
@@ -143,8 +145,8 @@ public:
 	/// The positions of the seed values are calculated by a
 	/// coherent-noise function.  By modifying the seed value, the output
 	/// of that function changes.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	int32 GetSeed() const
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	FORCEINLINE int32 GetSeed() const
 	{
 		return Seed;
 	}
@@ -159,14 +161,13 @@ public:
 	/// Applying the distance from the nearest seed point to the output
 	/// value causes the points in the Voronoi cells to increase in value
 	/// the further away that point is from the nearest seed point.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	bool IsDistanceEnabled() const
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	FORCEINLINE bool IsDistanceEnabled() const
 	{
 		return ShouldEnableDistance;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Sets the displacement value of the Voronoi cells.
 	///

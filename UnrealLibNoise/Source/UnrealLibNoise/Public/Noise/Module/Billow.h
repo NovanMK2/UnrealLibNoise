@@ -71,9 +71,11 @@ const int32 BILLOW_MAX_OCTAVE = 30;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UBillow : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 public:
+	/// Constructor
+	UBillow(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 	
 	/// Returns the frequency of the first octave.
 	///
@@ -140,13 +142,12 @@ public:
 		return Seed;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+
+	virtual int32 GetSourceModuleCount() const override
 	{
 		return 0;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
 	virtual float GetValue(FVector Corrdinates) override;
 
 	/// Sets the frequency of the first octave.

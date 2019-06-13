@@ -62,9 +62,15 @@ const float DEFAULT_SPHERES_FREQUENCY = 1.0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API USpheres : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
+
+	/// Constructor.
+	///
+	/// The default frequency is set to
+	/// noise::module::DEFAULT_SPHERES_FREQUENCY.
+	USpheres(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Returns the frequency of the concentric spheres.
 	///
@@ -73,19 +79,17 @@ public:
 	/// Increasing the frequency increases the density of the concentric
 	/// spheres, reducing the distances between them.
 	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetFrequency() const
+	FORCEINLINE float GetFrequency() const
 	{
 		return Frequency;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 0;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Sets the frequency of the concentric spheres.
 	///

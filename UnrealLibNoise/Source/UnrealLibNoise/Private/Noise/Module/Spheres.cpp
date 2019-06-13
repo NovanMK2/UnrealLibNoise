@@ -3,10 +3,7 @@
 #include "UnrealLibNoise.h"
 #include "Spheres.h"
 
-/// Constructor.
-///
-/// The default frequency is set to
-/// noise::module::DEFAULT_SPHERES_FREQUENCY.
+
 USpheres::USpheres(const FObjectInitializer& ObjectInit) : Super(ObjectInit), Frequency(DEFAULT_SPHERES_FREQUENCY)
 {
 }

@@ -76,9 +76,22 @@ const float DEFAULT_SELECT_UPPER_BOUND = 1.0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API USelect : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
+
+
+	/// Constructor.
+	///
+	/// The default falloff value at the edge transition is set to
+	/// DEFAULT_SELECT_EDGE_FALLOFF.
+	///
+	/// The default lower bound of the selection range is set to
+	/// DEFAULT_SELECT_LOWER_BOUND.
+	///
+	/// The default upper bound of the selection range is set to
+	///DEFAULT_SELECT_UPPER_BOUND.
+	USelect(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Returns the control module.
 	///
@@ -116,7 +129,7 @@ public:
 	/// values from the two source modules at the selection-range
 	/// boundary.
 	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetEdgeFalloff() const
+	FORCEINLINE float GetEdgeFalloff() const
 	{
 		return EdgeFalloff;
 	}
@@ -130,13 +143,12 @@ public:
 	/// source module with an index value of 1.  Otherwise, this method
 	/// outputs the value from the source module with an index value of 0.
 	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetLowerBound()
+	FORCEINLINE float GetLowerBound()
 	{
 		return LowerBound;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 3;
 	}
@@ -155,8 +167,7 @@ public:
 		return UpperBound;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Sets the lower and upper bounds of the selection range.
 	///

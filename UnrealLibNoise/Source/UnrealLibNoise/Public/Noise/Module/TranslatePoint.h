@@ -61,25 +61,36 @@ const float DEFAULT_TRANSLATE_POINT_Z = 0.0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UTranslatePoint : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 	
 public:
+	/// Constructor.
+	///
+	/// The default translation amount to apply to the @a x coordinate is
+	/// set to noise::module::DEFAULT_TRANSLATE_POINT_X.
+	///
+	/// The default translation amount to apply to the @a y coordinate is
+	/// set to noise::module::DEFAULT_TRANSLATE_POINT_Y.
+	///
+	/// The default translation amount to apply to the @a z coordinate is
+	/// set to noise::module::DEFAULT_TRANSLATE_POINT_Z.
+	UTranslatePoint(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override
 	{
 		return 1;
 	}
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Returns the translation amount to apply to the @a x coordinate of
 	/// the input value.
 	///
 	/// @returns The translation amount to apply to the @a x coordinate.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetXTranslation() const
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	FORCEINLINE float GetXTranslation() const
 	{
 		return xTranslation;
 	}
@@ -88,8 +99,8 @@ public:
 	/// the input value.
 	///
 	/// @returns The translation amount to apply to the @a y coordinate.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetYTranslation() const
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	FORCEINLINE float GetYTranslation() const
 	{
 		return yTranslation;
 	}
@@ -98,8 +109,8 @@ public:
 	/// the input value.
 	///
 	/// @returns The translation amount to apply to the @a z coordinate.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetZTranslation() const
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	FORCEINLINE float GetZTranslation() const
 	{
 		return zTranslation;
 	}

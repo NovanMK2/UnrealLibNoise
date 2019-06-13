@@ -4,8 +4,6 @@
 #include "../Exception.h"
 #include "Invert.h"
 
-///Constructor
-UInvert::UInvert(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
 
 float UInvert::GetValue(FVector Coordinates)
 {

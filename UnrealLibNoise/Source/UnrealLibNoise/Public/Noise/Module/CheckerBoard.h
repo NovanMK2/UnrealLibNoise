@@ -46,19 +46,16 @@
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UCheckerBoard : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const
 	{
 		return 0;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
 	virtual float GetValue(FVector Coordinates);
-	
 
 };
 

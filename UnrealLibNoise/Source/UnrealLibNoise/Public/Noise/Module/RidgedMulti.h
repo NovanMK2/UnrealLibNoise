@@ -121,15 +121,30 @@ const int32 RIDGED_MAX_OCTAVE = 30;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API URidgedMulti : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
+
+	/// Constructor.
+	///
+	/// The default number of octaves is set to
+	/// DEFAULT_RIDGED_OCTAVE_COUNT.
+	///
+	/// The default frequency is set to
+	/// DEFAULT_RIDGED_FREQUENCY.
+	///
+	/// The default lacunarity is set to
+	/// DEFAULT_RIDGED_LACUNARITY.
+	///
+	/// The default seed value is set to
+	/// DEFAULT_RIDGED_SEED.
+	URidgedMulti(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Returns the frequency of the first octave.
 	///
 	/// @returns The frequency of the first octave.
 	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetFrequency()
+	FORCEINLINE float GetFrequency()
 	{
 		return Frequency;
 	}
@@ -141,7 +156,7 @@ public:
 	/// The lacunarity is the frequency multiplier between successive
 	/// octaves.
 	UFUNCTION(BlueprintCallable, Category = "Generation")
-	float GetLacunarity()
+	FORCEINLINE float GetLacunarity()
 	{
 		return Lacunarity;
 	}
@@ -182,13 +197,11 @@ public:
 		return Seed;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const
 	{
 		return 0;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
 	virtual float GetValue(FVector Coordinates);
 
 	/// Sets the frequency of the first octave.

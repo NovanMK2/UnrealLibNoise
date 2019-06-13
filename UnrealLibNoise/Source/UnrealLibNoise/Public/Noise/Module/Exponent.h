@@ -49,11 +49,11 @@ const float DEFAULT_EXPONENT = 1.0;
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UExponent : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 	
 public:
 
-
+	UExponent(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
 	/// Returns the exponent value to apply to the output value from the
 	/// source module.
@@ -70,14 +70,13 @@ public:
 		return Exponent;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const
+	FORCEINLINE virtual int32 GetSourceModuleCount() const
 	{
 		return 1;
 	}
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	
+	virtual float GetValue(FVector Coordinates) override;
 
 	/// Sets the exponent value to apply to the output value from the
 	/// source module.

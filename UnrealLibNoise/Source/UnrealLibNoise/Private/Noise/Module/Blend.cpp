@@ -4,7 +4,6 @@
 #include "Blend.h"
 
 /// Constructor.
-UBlend::UBlend(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
 
 float UBlend::GetValue(FVector Coordinates)
 {

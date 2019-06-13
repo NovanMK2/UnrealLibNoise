@@ -4,16 +4,7 @@
 #include "../Noise.h"
 #include "Select.h"
 
-/// Constructor.
-///
-/// The default falloff value at the edge transition is set to
-/// DEFAULT_SELECT_EDGE_FALLOFF.
-///
-/// The default lower bound of the selection range is set to
-/// DEFAULT_SELECT_LOWER_BOUND.
-///
-/// The default upper bound of the selection range is set to
-///DEFAULT_SELECT_UPPER_BOUND.
+
 USelect::USelect(const FObjectInitializer& ObjectInit) : Super(ObjectInit) ,EdgeFalloff(DEFAULT_SELECT_EDGE_FALLOFF), LowerBound(DEFAULT_SELECT_LOWER_BOUND), UpperBound(DEFAULT_SELECT_UPPER_BOUND) {}
 
 float USelect::GetValue(FVector Coordinates)

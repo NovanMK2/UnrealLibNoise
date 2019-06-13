@@ -3,8 +3,6 @@
 #include "UnrealLibNoise.h"
 #include "Displace.h"
 
-///Constructor
-UDisplace::UDisplace(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
 
 float UDisplace::GetValue(FVector Coordinates)
 {

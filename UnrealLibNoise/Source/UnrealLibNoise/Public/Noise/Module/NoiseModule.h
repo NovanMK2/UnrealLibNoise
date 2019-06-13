@@ -212,7 +212,7 @@
 UCLASS(BlueprintType)
 class UNREALLIBNOISE_API UNoiseModule : public UObject
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 public:
 
@@ -235,8 +235,8 @@ public:
 	/// Each noise module requires the attachment of a certain number of
 	/// source modules before an application can call the GetValue()
 	/// method.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual UNoiseModule* GetSourceModule(int32 index) 
+	UFUNCTION(BlueprintPure, Category = "Generation")
+	virtual UNoiseModule* GetSourceModule(int32 index)
 	{ 
 		if (index < GetSourceModuleCount() || index < SourceMoudules.Num()) 
 		{ 
@@ -304,7 +304,7 @@ public:
 	///
 	/// To determine the number of source modules required by this noise
 	/// module, call the GetSourceModuleCount() method.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
+	UFUNCTION(BlueprintPure, Category = "Generation")
 	virtual float GetValue(FVector Coordinates) { return 0; }
 	
 
@@ -313,7 +313,7 @@ public:
 	///
 	/// @returns The number of source modules required by this noise
 	/// module.
-	UFUNCTION(BlueprintCallable, Category = "Generation")
+	UFUNCTION(BlueprintPure, Category = "Generation")
 	virtual int32 GetSourceModuleCount() const { return 0; }
 
 private:

@@ -21,13 +21,15 @@
 
 #include "UnrealLibNoise.h"
 #include "NoiseMap.h"
-#include "Runtime/Engine/Public/ImageUtils.h"
+
 
 void UNoiseMap::GeneratePlane(float LowerXBounds, float LowerZBounds, float UpperXBounds, float UpperZBounds)
 {
 	if (UpperXBounds <= LowerXBounds ||UpperZBounds <= LowerZBounds || Height <= 0 || Width <= 0)
 	{
-		Msg("Error: Plane out of bounds");
+#if WITH_EDITOR
+		UE_LOG(LogUnrealLibNoise, Error, TEXT("GeneratePlane : Plane out of bound"));
+#endif // WITH_EDITOR
 	}
 	else
 	{
@@ -81,7 +83,9 @@ void UNoiseMap::GenerateCylinder(float LowerAngleBounds, float LowerHeightBounds
 {
 	if (UpperAngleBounds <= LowerAngleBounds || UpperHeightBounds <= LowerHeightBounds || Height <= 0 || Width <= 0)
 	{
-		Msg("Error: Cylinder out of bounds");
+#if WITH_EDITOR
+		UE_LOG(LogUnrealLibNoise, Error, TEXT("GenerateCylinder : Cylinder out of bound"));
+#endif // WITH_EDITOR
 	}
 	else
 	{
@@ -119,11 +123,62 @@ void UNoiseMap::GenerateCylinder(float LowerAngleBounds, float LowerHeightBounds
 	}
 }
 
+void UNoiseMap::GenerateTorus(float LowerAngleBounds, float LowerHeightAngleBounds, float UpperAngleBounds, float UpperHeightAngleBounds)
+{
+
+	// To map a cylinder to a torus, you just "need" to "stitch" the top to the bottom
+	// Let's just do this by using a function that would have the Z coordinate loop
+	// Fortunalety, there's a function that do so: sin(x)
+	// This is a topological approach. not sure about it producing perfect results
+	if (UpperAngleBounds <= LowerAngleBounds || UpperHeightAngleBounds <= LowerHeightAngleBounds || Height <= 0 || Width <= 0)
+	{
+#if WITH_EDITOR
+		UE_LOG(LogUnrealLibNoise, Error, TEXT("GenerateTorus : Torus out of bound"));
+#endif // WITH_EDITOR
+	}
+	else
+	{
+		NoiseArray.Empty();
+		NoiseArray.SetNum(Width * Height);
+
+		float AngleExtent = UpperAngleBounds - LowerAngleBounds;
+		float HeightExtent = UpperHeightAngleBounds - LowerHeightAngleBounds;
+		float xDelta = AngleExtent / Width;
+		float yDelta = AngleExtent / Height;
+		float CurrentAngle = LowerAngleBounds;
+		float CurrentHeightAngle = LowerHeightAngleBounds;
+
+		for (int y = 0; y < Height; y++)
+		{
+			CurrentAngle = LowerAngleBounds;
+
+			for (int x = 0; x < Width; x++)
+			{
+				float X, Y, Z;
+
+				X = FMath::Cos(FMath::DegreesToRadians(CurrentAngle));
+				Y = FMath::Sin(FMath::DegreesToRadians(CurrentHeightAngle));
+				Z = FMath::Sin(FMath::DegreesToRadians(CurrentAngle));
+
+				float CurrentValue = NoiseModule->GetValue(FVector(X, Y, Z));
+
+				NoiseArray.Add(CurrentValue);
+
+				CurrentAngle += xDelta;
+			}
+
+			CurrentHeightAngle += yDelta;
+		}
+	}
+}
+
 void UNoiseMap::GenerateSphere(float NorthLatBound, float SouthLatBound, float WestLongBound, float EastLongBound)
 {
 	if (EastLongBound <= WestLongBound || NorthLatBound <= SouthLatBound || Height <= 0 || Width <= 0)
 	{
-		Msg("Error: Sphere out of bounds");
+#if WITH_EDITOR
+		UE_LOG(LogUnrealLibNoise, Error, TEXT("GenerateSphere : Sphere out of bound"));
+#endif // WITH_EDITOR
 	}
 	else
 	{
@@ -169,7 +224,9 @@ void UNoiseMap::GenerateColorArray(FGradient Gradient)
 {
 	if (Height <= 0 || Width <= 0 || NoiseArray.Num() <= 0)
 	{
-		Msg("Error: While generating color array, either noise array was empty or height/width is less than or equal to 0.");
+#if WITH_EDITOR
+		UE_LOG(LogUnrealLibNoise, Error, TEXT("GenerateColorArray : While generating color array, either noise array was empty or height/width is less than or equal to 0."));
+#endif // WITH_EDITOR
 	}
 	else
 	{

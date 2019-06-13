@@ -3,19 +3,6 @@
 #include "UnrealLibNoise.h"
 #include "RidgedMulti.h"
 
-/// Constructor.
-///
-/// The default number of octaves is set to
-/// DEFAULT_RIDGED_OCTAVE_COUNT.
-///
-/// The default frequency is set to
-/// DEFAULT_RIDGED_FREQUENCY.
-///
-/// The default lacunarity is set to
-/// DEFAULT_RIDGED_LACUNARITY.
-///
-/// The default seed value is set to
-/// DEFAULT_RIDGED_SEED.
 URidgedMulti::URidgedMulti(const FObjectInitializer& ObjectInit) : Super(ObjectInit),
 	Frequency(DEFAULT_RIDGED_FREQUENCY),
 	Lacunarity(DEFAULT_RIDGED_LACUNARITY),

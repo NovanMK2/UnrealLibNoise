@@ -10,10 +10,8 @@
 ///
 /// The default upper bound of the clamping range is set to
 /// noise::module::DEFAULT_CLAMP_UPPER_BOUND.
-UClamp::UClamp(const FObjectInitializer& ObjectInit) : Super(ObjectInit)
+UClamp::UClamp(const FObjectInitializer& ObjectInit) : Super(ObjectInit), LowerBound(DEFAULT_CLAMP_LOWER_BOUND), UpperBound(DEFAULT_CLAMP_UPPER_BOUND)
 {
-	LowerBound = DEFAULT_CLAMP_LOWER_BOUND;
-	UpperBound = DEFAULT_CLAMP_UPPER_BOUND;
 }
 
 float UClamp::GetValue(FVector Coordinates)

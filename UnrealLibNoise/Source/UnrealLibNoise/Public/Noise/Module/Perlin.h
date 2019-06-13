@@ -154,15 +154,15 @@ const int32 PERLIN_MAX_OCTAVE = 30;
 UCLASS(BlueprintType)
 class UPerlin : public UNoiseModule
 {
-	GENERATED_UCLASS_BODY()
+	GENERATED_BODY()
 
 public:
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual float GetValue(FVector Coordinates);
+	UPerlin(const FObjectInitializer& ObjectInit = FObjectInitializer::Get());
 
-	UFUNCTION(BlueprintCallable, Category = "Generation")
-	virtual int32 GetSourceModuleCount() const { return 0; }
+	virtual float GetValue(FVector Coordinates) override;
+
+	FORCEINLINE virtual int32 GetSourceModuleCount() const override { return 0; }
 
 	/// Returns the frequency of the first octave.
 	///

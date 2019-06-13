@@ -4,9 +4,6 @@
 #include "../Noise.h"
 #include "CheckerBoard.h"
 
-/// Constructor.
-UCheckerBoard::UCheckerBoard(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
-
 float UCheckerBoard::GetValue(FVector Coordinates)
 {
 	int ix = FMath::FloorToInt(UNoiseGen::MakeInt32Range(Coordinates.X));

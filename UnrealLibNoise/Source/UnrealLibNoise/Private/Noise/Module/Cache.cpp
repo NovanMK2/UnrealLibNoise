@@ -4,9 +4,8 @@
 #include "Cache.h"
 
 /// Constructor.
-UCache::UCache(const FObjectInitializer& ObjectInit) : Super(ObjectInit)
+UCache::UCache(const FObjectInitializer& ObjectInit) : Super(ObjectInit), IsCached(false) 
 {
-	IsCached = false;
 }
 
 float UCache::GetValue(FVector Coordinates)

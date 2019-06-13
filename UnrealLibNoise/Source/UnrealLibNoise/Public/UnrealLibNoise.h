@@ -5,7 +5,7 @@
 #include "Engine.h"
 #include "ModuleManager.h"
 
-#define Msg(Text) if(GEngine) GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Green, TEXT(Text));
+DECLARE_LOG_CATEGORY_EXTERN(LogUnrealLibNoise, All, All);
 
 class FUnrealLibNoiseModule : public IModuleInterface
 {

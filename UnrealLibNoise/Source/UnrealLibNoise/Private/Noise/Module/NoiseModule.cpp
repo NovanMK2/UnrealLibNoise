@@ -21,5 +21,3 @@
 
 #include "UnrealLibNoise.h"
 #include "NoiseModule.h"
-
-UNoiseModule::UNoiseModule(const FObjectInitializer& ObjectInit) : Super(ObjectInit) {}
